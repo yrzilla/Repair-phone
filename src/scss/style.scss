@@ -1,0 +1,52 @@
+@import 'base/vars';
+@import 'base/mixins';
+
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.divider {
+  width: 377px;
+  height: 1px;
+  background-color: #3fc7db;
+  margin: 0 auto 25px auto;
+}
+
+
+// @import './modules/slider/twentytwenty';
+@import './blocks/sections/header';
+@import './blocks/sections/main';
+@import './blocks/sections/buttons';
+@import './blocks/sections/title';
+@import './blocks/sections/master';
+// @import './modules/sections/section2';
+// @import './modules/sections/section3';
+// @import './modules/sections/section4';
+// @import './modules/sections/section5';
+// @import './modules/sections/section6';
+// @import './modules/sections/section7';
+// @import './modules/sections/section8';
+// @import './modules/sections/section9';
+// @import './modules/sections/section10';
+// @import './modules/sections/section11';
+// @import './modules/sections/footer';
+// @import './modules/modals/modal-feedback';
+// @import './modules/modals/modal-default';
+// @import './modules/modals/popup';

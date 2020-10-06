@@ -1,0 +1,36 @@
+.main {
+  min-height: 564px;
+  background: linear-gradient(90deg, rgba(99, 154, 168, 0.7), rgba(161, 119, 158, 0.7)), url('../img/main/main_bg.jpg') no-repeat center center/cover;
+  background-color: #464646;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content {
+    margin: 133px 0 139px 0;
+  }
+  &__title {
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 68px;
+  }
+  &__subtitle {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  &__text {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 592px;
+    margin: 0 0 30px 0;
+  }
+  .slider {
+    margin-top: 46px;
+  }
+}
+

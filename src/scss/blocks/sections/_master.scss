@@ -1,0 +1,22 @@
+.master {
+    min-height: 590px;
+    padding: 70px 0;
+    &__icon {
+        display: block;
+        margin: 34px auto 16px auto;
+    }
+    &__descr {
+        color: #464646;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__buttons {
+        width: 540px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+}
